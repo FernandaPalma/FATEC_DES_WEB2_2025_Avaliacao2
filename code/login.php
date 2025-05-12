@@ -1,5 +1,5 @@
 <?php
-require('classes/login.php');
+require_once('classes/login.php');
 
 $login = $_POST["login"];
 $senha = $_POST["senha"];
