@@ -69,9 +69,9 @@ $validador->verificar_logado();
         <h2>Bem-vindo(a), Lojista!</h2>
 
         <div class="btn-container">
-            <a href="" class="button">Cadastrar Produto</a>
-            <a href="" class="button">Visualizar Produtos</a>
-            <a href="" class="button">Remover Produto</a>
+            <a href="./cadastrar.php" class="button">Cadastrar Produto</a>
+            <a href="./visualizar.php" class="button">Visualizar Produtos</a>
+            <a href="./remover.php" class="button">Remover Produto</a>
             <a href="login.php" class="button">Logout</a>
         </div>
     </main>
