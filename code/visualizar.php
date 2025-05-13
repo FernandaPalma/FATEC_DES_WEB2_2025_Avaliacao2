@@ -1,6 +1,6 @@
 <?php
 require_once('classes/login.php');
-require_once('classes/DB.php');
+require_once('classes/artesanato_db.php');
 
 $validador = new Login();
 $validador->verificar_logado();
