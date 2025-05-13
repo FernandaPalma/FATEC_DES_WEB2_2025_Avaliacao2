@@ -4,6 +4,14 @@
 class DB {
     private $conn;
 
+    protected $conexao;
+    protected $host = "localhost";
+    protected $dbname = "artesanato_db";
+    protected $username = "root";
+    protected $password = "";
+    protected $pdo;
+
+
     public function __construct() {
         try {
             $this->conn = new PDO("mysql:host=localhost;dbname=loja", "root", "");
